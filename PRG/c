@@ -1,0 +1,73 @@
+C>SEARCH /frenewal/ *.prg
+
+SEARCH  Ver 2.2
+Copyright (C) 1986, 1987, Solid Software, Inc. and Buzzwords International, Inc.
+
+Searching for "frenewal"
+ ... ignoring case.
+
+Found in line 18 of file CHKR.PRG:
+      if raplate->frenewal > date()
+
+Found in line 123 of file RDTP.PRG:
+         xexp = strtran(dtoc(raplate->frenewal),"/","") 
+
+Found in line 149 of file RDTP.PRG:
+         xexp = strtran(dtoc(raplate->frenewal),"/","") 
+
+Found in line 348 of file RDTP.PRG:
+         xexp = strtran(dtoc(raplate->frenewal),"/","") 
+
+Found in line 374 of file RDTP.PRG:
+         xexp = strtran(dtoc(raplate->frenewal),"/","") 
+
+Found in line 316 of file RDTP1.PRG:
+                if empty(frenewal)
+
+Found in line 317 of file RDTP1.PRG:
+                   replace frenewal with xrenewal
+
+Found in line 927 of file RDTP1.PRG:
+      elseif raplate->frenewal <= l_fdate
+
+Found in line 928 of file RDTP1.PRG:
+         f_valid (.f., "Plate "+yplate+"expires "+dtoc(raplate->frenewal))
+
+Found in line 936 of file RDTP1.PRG:
+      xyear = substr(dtos(frenewal),1,4)
+
+Found in line 937 of file RDTP1.PRG:
+      xrenewal = raplate->frenewal          && 12.11.06: get previous blue plate renewal
+
+Found in line 1048 of file RDTP1.PRG:
+         if raplate->frenewal - l_fdate > 121    
+
+Found in line 1049 of file RDTP1.PRG:
+           f_valid (.f., "Plate "+yplate+" expires "+dtoc(raplate->frenewal))
+
+Found in line 1055 of file RDTP1.PRG:
+         if raplate->frenewal - l_fdate > 150
+
+Found in line 1056 of file RDTP1.PRG:
+           f_valid (.f., "Plate "+yplate+" expires "+dtoc(raplate->frenewal))
+
+Found in line 12 of file RDTP5A.PRG:
+* 10.27.98: year 2000 (frenewal)
+
+Found in line 366 of file RDTP5A.PRG:
+            L_F23EXP = strtran(dtoc(raplate->frenewal),"/","") 
+
+Found in line 392 of file RDTP5A.PRG:
+            L_F23EXP = strtran(dtoc(raplate->frenewal),"/","") 
+
+Found in line 462 of file RDTP5A.PRG:
+         replace frenewal with ydate
+
+Found in line 33 of file RINV3.PRG:
+      @ yrow, 23 get l_frenewal valid f_y2k(@l_frenewal)
+
+Found in line 45 of file RINV3.PRG:
+         @ yrow, 23 say l_frenewal
+
+Found in line 106 of file RINV3.PRG:
+         "fplate+[ ]+fstate+[      ]+ftype+[    ]+dtoc(frenewal)+[   ]+ftab+[ ]+fvin+[   ]+fstatus+[   ]")

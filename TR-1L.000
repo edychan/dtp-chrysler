@@ -1,0 +1,39 @@
+
+!R! SMB 7;UNIT C;CASS 1;COPY 1;EXIT;
+!R! FONT 62; MAP 0,-.015; CALL VREG; EXIT,E;
+
+
+      CA00511               02/28/10                                       CA00511                02/28/10
+   Original Title/Transfer Plate                                     Original Title/Transfer Plate
+   06      DODGE               PICKUP                                06      DODGE               PICKUP         
+            1D7HU182X6J218135                        000031                      1D7HU182X6J218135                          000031
+                                              OAKLAND                                                               OAKLAND        
+
+
+   CHRYSLER GROUP LLC                                                CHRYSLER GROUP LLC
+                                                                     
+   4300 S LAPEER ROAD                                                4300 S LAPEER ROAD                  
+   ORION TOWNSHIP        MI  48359                                   ORION TOWNSHIP        MI  48359     
+                                                      23.00                                                                  23.00
+     070809 A1 X189 806 0001     23.00                               070809 A1 X189 806 0001     23.00
+
+
+
+
+!R! EXIT,E;
+!R! FSET 0p12h12v0s3b0t; CALL VREG; EXIT,E;
+     CA00511 03        02/28/10  12
+  Original Title/Transfer Plate
+
+  06      DODGE               PICKUP         
+         1D7HU182X6J218135              000031
+
+                               OAKLAND      63
+  CHRYSLER GROUP LLC
+  
+  4300 S LAPEER ROAD                  
+  ORION TOWNSHIP        MI  48359        23.00
+
+  070809 A1 X189 806 0001     23.00           
+
+!R! PAGE;CASS 1;EXIT,E;

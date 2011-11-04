@@ -1,0 +1,46 @@
+C>SEARCH /group llc/ *.prg
+
+SEARCH  Ver 2.2
+Copyright (C) 1986, 1987, Solid Software, Inc. and Buzzwords International, Inc.
+
+Searching for "group llc"
+ ... ignoring case.
+
+Found in line 28 of file DTP.PRG:
+*           using [CHRYSLER GROUP LLC]
+
+Found in line 4 of file RAFUNC4.PRG:
+* 07.13.09: 6.02c For 806:name change to [CHRYSLER GROUP LLC]
+
+Found in line 23 of file RDTP.PRG:
+*               Title name ::= [CHRYSLER GROUP LLC]
+
+Found in line 175 of file RDTP.PRG:
+   * --07.01.09: 806 will be title exclusively using [CHRYSLER GROUP LLC]
+
+Found in line 176 of file RDTP.PRG:
+   if radtrh->fowner = [CHRYSLER GROUP LLC]    && 
+
+Found in line 406 of file RDTP.PRG:
+   * --07.01.09: 806 will be title exclusively using [CHRYSLER GROUP LLC]
+
+Found in line 407 of file RDTP.PRG:
+   if radtrh->fowner = [CHRYSLER GROUP LLC]    && 
+
+Found in line 57 of file RDTP1.PRG:
+*               Title name ::= [CHRYSLER GROUP LLC]
+
+Found in line 250 of file RDTP1.PRG:
+               l_fowner = [CHRYSLER GROUP LLC]  && 07.13.09
+
+Found in line 266 of file RDTP1.PRG:
+                     l_fowner = [CHRYSLER GROUP LLC]   
+
+Found in line 41 of file RDTP5A.PRG:
+*               Title name ::= [CHRYSLER GROUP LLC]
+
+Found in line 276 of file RDTP5A.PRG:
+      if radtrh->fowner = [CHRYSLER GROUP LLC]     && 07.01.09
+
+Found in line 277 of file RDTP5A.PRG:
+         L_F45NAME = [CHRYSLER GROUP LLC]

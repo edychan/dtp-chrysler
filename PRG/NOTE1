@@ -1,0 +1,20 @@
+*
+* Date:  09.29.99
+* create  renewal file
+* usage: addnew 806 01  branch 806 passenger plate
+*        addnew 806 03  branch 806 commercial plate
+*        addnew 811 01  branch 811 passenger plate
+*        addnew 811 03  branch 811 commercial plate
+*
+* notes:
+* To load h:\dtp\dbf\vmsdata.dbf
+*   cvms.txt should be located in s:/sos/cvms.txt
+*   run <util.exe>
+*   use vmsdata
+*   zap
+*   append sdf cvms.txt
+*   index on substr(fvin,10,8) to vmsdata
+*
+* To pre-process renewal.dbf against vmsdata
+*   run <ppnew.exe>
+*
